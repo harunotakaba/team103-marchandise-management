@@ -23,12 +23,15 @@
     
         <!-- 検索 -->
         <div class="input-group">
-            <div class="form-outline">
+            <div class="form-outline ">
                 <form method="get" action="/home">
                     <input type="text" class="form-control"  name="key" value="" palceholder="検索キーワードを入力">
                     <!-- <label class="form-label" for="form1">検索</label> -->
-                    <input class="btn btn-primary btn-sm"  type="submit" value="検索">
-                    <i class="bi bi-search"></i>
+                    <div class="form-inline">
+                        <button class="btn btn-primary btn-sm "  type="submit" value="検索" >
+                        <i class="bi bi-search"></i> 
+                        </button>
+                    </div>
                 </form>
             </div>
         </div>
