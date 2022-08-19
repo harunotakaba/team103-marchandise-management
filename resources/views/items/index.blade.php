@@ -23,6 +23,11 @@
     
         <!-- 検索 -->
         <div class="input-group">
+            <input type="text" class="form-control" placeholder="キーワードを入力">
+            <button class="btn btn-outline-success" type="button" id="button-addon2"><i class="fas fa-search"></i> 検索</button>
+        </div>
+
+        <div class="input-group">
             <div class="form-outline ">
                 <form method="get" action="/home">
                     <input type="text" class="form-control"  name="key" value="" palceholder="検索キーワードを入力">
@@ -39,7 +44,7 @@
         <!-- テーブル -->
             <table class="table table-striped table-bordered">
                 <thead>
-                    <tr>
+                    <tr class="table-dark">
                         <th>id</th>
                         <th>商品名</th>
                         <th>カテゴリー</th>

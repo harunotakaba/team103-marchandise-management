@@ -16,7 +16,7 @@
     </head>
 
     <body>
-        <div class="container">
+        <div class="container center-block">
         <h1>商品管理システム</h1>
         <h2>詳細画面</h2>
         <p>商品名：</p>{{$item->name}}</br>
